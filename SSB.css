@@ -45,6 +45,23 @@ header{
     position: relative;
     left: 48%;
 }
+.sectLog3{
+    position: relative;
+    top: -450px;
+    left: 58%;
+}
+#sexo{
+    border-radius: 15px;
+    width: 410px;
+    height: 40px;
+}
+#reg{
+    position: relative;
+    left: 25%;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
 
 
     
