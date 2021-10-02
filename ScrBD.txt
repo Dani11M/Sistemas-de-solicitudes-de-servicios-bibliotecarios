@@ -6,4 +6,10 @@ CREATE TABLE Registro(IdRegistro varchar (50) PRIMARY KEY,Correo varchar(50), Co
 CREATE TABLE Suscrip(IdSuscrip varchar (50) PRIMARY KEY, Valor int, Benef varchar(50), FeRenov date);
 CREATE TABLE ListCategor(IdLC varchar (50) PRIMARY KEY, IdLibro varchar (50), IdCateg varchar (50), CONSTRAINT FKLiCa_Lib FOREIGN KEY (IdLibro) REFERENCES Libros(IdLibro), CONSTRAINT FKSLL_Cat FOREIGN KEY (IdCateg) REFERENCES Categoria(IdCateg));
 CREATE TABLE Categoria(IdCateg varchar (50) PRIMARY KEY, Genero varchar (50));
+-----------
+SQLscr:
+INSERT INTO libros (idlibro, nombre, autor, editorial, fechaingreso, disponibilidad) VALUES ('','','','', ,'');
+INSERT INTO solicitarlibros (idsolicitarlibros, correo, idlibro) VALUES ('','','');
+SELECT login.correo FROM login INNER JOIN registro
+WHERE login.correo = registro.correoregistro
 
