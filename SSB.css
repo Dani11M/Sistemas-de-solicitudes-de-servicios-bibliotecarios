@@ -2,32 +2,32 @@
     background-color: rgb(139, 200, 250);
 }
 header{
-   
     position: relative;
 }
 .Log-Reg{
     position: relative;
     left: 90%;
     top: -180px;
+    text-align-last: center;
 }
 #butLog{
     border-radius: 20px;
     width: 60px;
     height: 40px;
+    text-align-last: center;
 
 }
 .Logo2{
     position: relative;
     top: 90px;
     left: 8%;
-
-    
+    text-align-last: center;
 }
 .sectLog{
     position: relative;
     top: -380px;
     left: 58%;
-    
+    text-align-last: center;
 }
 #log{
     position: relative;
@@ -35,25 +35,30 @@ header{
     border-radius: 20px;
     width: 200px;
     height: 40px;
+    text-align-last: center;
 }
 .butLog1{
     border-radius: 20px;
     width: 400px;
     height: 40px;
+    text-align-last: center;
 }
 .o{
     position: relative;
     left: 48%;
+    text-align-last: center;
 }
 .sectLog3{
     position: relative;
     top: -450px;
     left: 58%;
+    text-align-last: center;
 }
 #sexo{
     border-radius: 15px;
     width: 410px;
     height: 40px;
+    text-align-last: center;
 }
 #reg{
     position: relative;
@@ -61,6 +66,7 @@ header{
     border-radius: 20px;
     width: 200px;
     height: 40px;
+    text-align-last: center;
 }
 
 
