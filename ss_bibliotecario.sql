@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-10-2021 a las 00:41:02
+-- Tiempo de generación: 15-10-2021 a las 18:57:04
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.11
 
@@ -78,8 +78,7 @@ CREATE TABLE `login` (
 --
 
 CREATE TABLE `registro` (
-  `IdRegistro` varchar(50) NOT NULL,
-  `Correo` varchar(50) DEFAULT NULL,
+  `Correo` varchar(50) NOT NULL,
   `Contraseña` varchar(50) DEFAULT NULL,
   `Nombre` varchar(50) DEFAULT NULL,
   `Apellido` varchar(50) DEFAULT NULL,
@@ -148,8 +147,7 @@ ALTER TABLE `login`
 -- Indices de la tabla `registro`
 --
 ALTER TABLE `registro`
-  ADD PRIMARY KEY (`IdRegistro`),
-  ADD KEY `FKReg_Log` (`Correo`);
+  ADD PRIMARY KEY (`Correo`);
 
 --
 -- Indices de la tabla `sollibros`
@@ -186,7 +184,8 @@ ALTER TABLE `login`
 -- Filtros para la tabla `registro`
 --
 ALTER TABLE `registro`
-  ADD CONSTRAINT `FKReg_Log` FOREIGN KEY (`Correo`) REFERENCES `login` (`Correo`);
+  ADD CONSTRAINT `FKReg_Log` FOREIGN KEY (`Correo`) REFERENCES `login` (`Correo`),
+  ADD CONSTRAINT `fk_r_l` FOREIGN KEY (`Correo`) REFERENCES `login` (`Correo`);
 
 --
 -- Filtros para la tabla `sollibros`
