@@ -397,12 +397,8 @@ form{
 	}
 
 	.products-list .product-item{
-<<<<<<< HEAD
-		margin-left: 4.5%;
-=======
 	    margin-left: 4.5%;
         z-index: 100;
->>>>>>> 1a889becf89eb74ffbbc3e07b00d451c905f6bb4
 	}
 
 	.products-list .product-item:nth-child(3n+1){
@@ -481,84 +477,4 @@ form{
     position: absolute;
     top: 0.5%;
     left: 96%;
-}
-<<<<<<< HEAD
-.logohomep{
-    width: 40px;
-    height: 40px;
-    z-index: 100;
-    position: absolute;
-    top: 1.2%;
-    left: 96%;
-    border-radius: 400px;
-=======
-
-/*Perfil*/
-*{
-    background: rgb(3, 172, 158);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px; 
-}
-    
-.header{
-      text-align: center;
-      height: 300px;
-      padding: 12px;
-    }
-
-.Foto {
-width: 200px;
-height: 200px;
-border-radius: 50%;
-}
-
-.redes{
-list-style: none;
-text-align: center;
-padding: 0%;
-}
-
-.redes li {
-display: inline-block;
-margin: 5px;
-}
-
-.icon{
-width: 16px;
-height: 16px;
-display: inline-block;
-background-size: cover;
-}
-
-.gmail{
-background-image: url(iconos/logotipo-de-gmail.png);
-}
-.facebook{
-    background-image: url(iconos/facebook.png); }
-
-.instagram{
-     background-image: url(iconos/instagram.png);
-        }
-
-.about{
-    padding: 10px;
-}
-
-.about h3{
-    color: black;
-    font-size: 16px;
-    text-align: center;
-}
-.about p{
-    color: black;
-    font-size: 14px;
-    text-align: center;
-}
-
-.imagen{
-    position: absolute;
-    margin: -45;
-    width: 300px;
-height: 300px;
->>>>>>> e0c97dc9050a6aa02c4150cfad938d5ac93f9f46
 }
