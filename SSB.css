@@ -478,3 +478,12 @@ form{
     top: 0.5%;
     left: 96%;
 }
+.logohomep{
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    position: absolute;
+    top: 1.2%;
+    left: 96%;
+    border-radius: 400px;
+}
