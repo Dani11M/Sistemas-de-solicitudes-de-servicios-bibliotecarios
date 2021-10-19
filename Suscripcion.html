@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción Servicio Bibliotecario</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="https://www.kindpng.com/picc/m/101-1010931_book-black-opened-pages-libro-animado-negro-hd.png">
+
+</head>
+<body>
+    <div class="volver">
+    <a href="javascript:history.go(-1)">Regresar</a>
+</div>
+    <div class="container">
+
+        <article class="card">
+            <div class="card-top">
+                <h1 class="titulo">SUSCRIBETE:</h1>
+                <h3 class="subtitulo">¡Obtén tu Suscripción!</h3>
+                <p>Disfruta los beneficios del Club Suscriptor Servicio Bibliotecario, si deseas más información puedes contactarnos. </p>
+            </div>
+            <div class="card-bottom">
+                <div class="card-left">
+                    <h3 class="text-precio">Club Suscriptor Servicio Bibliotecario (Mensual)</h3>
+                    <p class="precio">COP $9.990 <span>x mes</span></p>
+                    <p class="promocion"> Acceso a libros premium</p>
+                    <a href="#">¡Comprar!</a>
+                </div>
+                <div class="card-right">
+                        <h3 class="text-precio">Club Suscriptor Servicio Bibliotecario (Anual)</h3>
+                        <p class="precio">COP $99.990 <span>x año</span></p>
+                        <p class="promocion"> Full acceso a todos los libros</p>
+                        <a href="#">¡Comprar!</a>
+                    </div>
+                </div>
+        </article>        
+    </div>
+    
+        <div class="wrapper">
+            <div class="container2">
+                <form action="">
+                    <h1>
+                        <i class="fas"></i>
+                        DETALLES DE COMPRA:
+                    </h1>
+                    <div class="name">
+                        <div>
+                            <label for="f-name">Nombres Completos:</label>
+                            <input type="text" name="f-name">
+                        </div>
+                        <div>
+                            <label for="l-name">Apellidos Completos:</label>
+                            <input type="text" name="l-name">
+                        </div>
+                    </div>
+                    <div class="street">
+                        <label for="name">Correo Electrónico:</label>
+                        <input type="text" name="address">
+                    </div>
+                    <div class="address-info">
+                        <div>
+                            <label for="city">Ciudad:</label>
+                            <input type="text" name="city">
+                        </div>
+                        <div>
+                            <label for="state">Estado:</label>
+                            <input type="text" name="state">
+                        </div>
+                        <div>
+                            <label for="zip">Zip:</label>
+                            <input type="text" name="zip">
+                        </div>
+                    </div>
+                    <h1>
+                        <i class="far fa-credit-card"></i> Pagar con tarjeta débito o crédito
+                    </h1>
+                    <div class="cc-num">
+                        <label for="card-num">Número de tarjeta:</label>
+                        <input type="text" name="card-num">
+                    </div>
+                    <div class="cc-info">
+                        <div>
+                            <label for="card-num">Vencimiento:</label>
+                            <input type="text" name="expire">
+                        </div>
+                        <div>
+                            <label for="card-num">CCV:</label>
+                            <input type="text" name="security">
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <a href="#">CONTINUAR</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+                </div>
+        </article>        
+    </div>
+
+
+</body>
+</html>
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+background: url("https://cdn.discordapp.com/attachments/810139558750322693/898728630996332564/ac9e82e9-cae1-47a7-98f8-b92d008370f9.png");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-color: transparent;
+background-size: 1090px;
+}
+.container{
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 1100px;
+    background-attachment: inherit;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    animation: slideUp 2000ms ease;
+
+}
+
+.card{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(204, 204, 204, 0.39);
+    overflow: hidden;
+    margin: 30px;
+}
+
+.card-top{
+    height: 50%;
+    padding: 35px 35px 0px 35px;
+    background-color: rgba(117, 117, 117, 0.747);
+}
+
+.card-top .titulo{
+    font-size: 25px;
+    margin: 10px 0px 15px 0px;
+    color: rgb(12, 116, 116);
+    text-align:center;
+
+}
+
+.card-top .subtitulo{
+    font-size: 20px;
+    color: rgb(156, 224, 77);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card-top p{
+    color: rgb(233, 233, 233);
+    line-height: 20px;
+}
+
+
+.card-bottom{
+    display: flex;
+    height: 50%;
+}
+
+
+.card-left{
+    width: 50%;
+    padding: 35px;
+    background-color: rgba(102, 192, 170, 0.986);
+}
+
+.card-left h3{
+    color: rgb(224, 224, 224);
+    margin-bottom: 10px;
+}
+
+.card-left .precio{
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.card-left .precio span{
+    color: rgb(211, 210, 210);
+    font-size: 15px;
+}
+
+.card-left .promocion{
+    color: rgb(224, 224, 224);
+    font-size: 14px;
+    margin-bottom: 30px;    
+}
+
+.card-left a{
+    padding: 10px 80px;
+    border-radius: 5px;
+    background-color: rgb(146, 189, 6);
+    color: rgb(224, 224, 224);
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
+}
+
+@media (max-width: 650px){
+    .card{
+        width: 550px;
+        height: 400px;
+    }
+    
+    .card-left a{
+        padding: 10px 60px;
+    }
+}
+
+@media (max-width: 560px){
+    .card{
+        height: 90vh;
+    }
+
+    .card-top{
+        height: 33vh;
+        background-color: #fff;
+    }
+
+    .card-top .titulo{
+        font-size: 23px;
+
+    }
+    
+    .card-top .subtitulo{
+        font-size: 18px;
+    }
+
+    .card-top p{
+        font-size: 13px;
+    }
+
+    .card-bottom{
+        display: flex;
+        flex-wrap: wrap ;
+    }
+    
+    .card-left{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .card-right{
+        width: 100%;
+        height: 30vh;
+    }
+
+}
+
+.card-right{
+    width: 50%;
+    padding: 35px;
+    background-color: rgba(19, 153, 119, 0.986);
+}
+
+.card-right h3{
+    color: rgb(224, 224, 224);
+    margin-bottom: 10px;
+}
+
+.card-right .precio{
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.card-right .precio span{
+    color: rgb(211, 210, 210);
+    font-size: 15px;
+}
+
+.card-right .promocion{
+    color: rgb(224, 224, 224);
+    font-size: 14px;
+    margin-bottom: 30px;    
+}
+
+.card-right a{
+    padding: 10px 80px;
+    border-radius: 5px;
+    background-color: rgb(146, 189, 6);
+    color: rgb(224, 224, 224);
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
+}
+
+.volver a{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(146, 189, 6);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
+}
+
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: "Arimo";
+    background-color: rgba(102, 192, 170, 0.986);
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 103vh;
+    background-size: 1100px;
+    background-attachment: inherit;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    animation: slideUp 2000ms ease;
+}
+
+@keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+
+    }
+}
+
+
+
+h1 {
+    align-self: center;
+    font-size: 25px;
+    margin: 10px 0px 15px 0px;
+    color: rgb(12, 116, 116);
+    text-align:center;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+    }
+
+    input {
+        width: 100%;
+        min-height: 25px;
+        border: 0;
+        font-size: 1rem;
+        letter-spacing: .15rem;
+        font-family: "Arimo";
+        margin-top: 5px;
+        color: rgb(0, 0, 0);
+        border-radius: 4px;
+    }
+
+    label {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: rgb(255, 255, 255);
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 10px;
+        color: title;
+        letter-spacing: 1px;
+    }
+
+    h1:nth-of-type(2) {
+        margin-top: 10%;
+    }
+
+
+.name {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
+   
+}
+
+.address-info {
+    display: flex;
+    justify-content: space-between;
+        width: 30%;
+    
+}
+
+.cc-info {
+    display: flex;
+    justify-content: space-between;
+
+
+        width: 45%;
+    
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+    .btns button {
+        margin: 3px 0;
+        height: 30px;
+        width: 40%;
+        color: #cfc9e1;
+        background-color: #4a3b76;
+        text-transform: uppercase;
+        border: 0;
+        border-radius: .3rem;
+        letter-spacing: 2px;
+            animation-name: btn-hov;
+            animation-duration: 550ms;
+            animation-fill-mode: forwards;
+        
+    }
+
+
+@keyframes btn-hov {
+    100% {
+        background-color: #cfc9e1;
+        color: #4a3b76;
+        transform: scale(1.05)
+    }
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+@media (max-width: 736px) {
+    .wrapper {
+
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 1100px;
+    background-attachment: inherit;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+
+    .container2 {
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 1100px;
+    background-attachment: inherit;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+
+    .btns {
+        align-items: center;
+    }
+        .btns button {
+            width: 50%;
+        }
+}
+
+
+    .name,
+    .address-info,
+    .cc-info,
+    .cc-info div,
+    .street,
+    .cc-num {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    input {
+        margin: 5px 0;
+        min-height: 30px;
+    }
+    .btns a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(146, 189, 6);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
+}
+
+</style>
