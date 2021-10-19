@@ -385,7 +385,7 @@ body{
 	}
 
 	.products-list .product-item{
-		margin-left: 4.5%;
+	.	margin-left: 4.5%;
 	}
 
 	.products-list .product-item:nth-child(3n+1){
@@ -424,4 +424,35 @@ body{
 		width: 100%;
 		margin-left: 0px;
 	}
+}
+.btninicio{
+    height: 65px;
+    width: 75px;
+    position: absolute;
+    top: 1.7%;
+    left: 92%;
+    border-radius: 400px;
+}
+.btninicio2{
+    height: 65px;
+    width: 75px;
+    position: absolute;
+    top: 1.7%;
+    left: 92%;
+    border-radius: 400px;
+}
+.btnis{
+    position: absolute;
+    top: 1.7%;
+    left: 93%;
+}
+.btnr{
+    position: absolute;
+    top: 1.7%;
+    left: 87%;
+}
+.btnperfil{
+    position: absolute;
+    top: 1.1%;
+    left: 96%;
 }
