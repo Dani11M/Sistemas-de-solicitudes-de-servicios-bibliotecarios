@@ -249,3 +249,17 @@ form{
     left: 15.8%;
     text-align-last: center;
 }
+.btnis{
+    position: absolute;
+    top: 1%;
+    left: 86%;
+    background: rgb(0, 104, 87);
+    border-radius: 4px;
+}
+.btnr{
+    position: absolute;
+    top: 1%;
+    left: 93%;
+    background: rgb(0, 104, 87);
+    border-radius: 4px;
+}
