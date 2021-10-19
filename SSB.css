@@ -1,7 +1,9 @@
 *{
     background: rgb(3, 172, 158);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;   
+    font-size: 18px;  
+
+    flex-wrap: "wrap"; 
 }
 form{
     position: absolute;
@@ -395,7 +397,7 @@ form{
 	}
 
 	.products-list .product-item{
-	.	margin-left: 4.5%;
+	    margin-left: 4.5%;
         z-index: 100;
 	}
 
