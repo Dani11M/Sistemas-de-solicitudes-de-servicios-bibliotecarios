@@ -478,6 +478,7 @@ form{
     top: 0.5%;
     left: 96%;
 }
+<<<<<<< Updated upstream
 /*SUSCRIPCION PÁG*/
     *{
     margin: 0px;
@@ -888,10 +889,25 @@ button:focus {
     box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
 }
 
+=======
+
+.logohomep{
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    position: absolute;
+    top: 1.2%;
+    left: 96%;
+    border-radius: 400px;
+
+
+/*Perfil*/
+
+>>>>>>> Stashed changes
 *{
     background: rgb(3, 172, 158);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px; 
+    font-size 18px; 
 }
     
 .Arriba{
@@ -925,7 +941,11 @@ background-size: cover;
 }
 
 .gmail{
+<<<<<<< Updated upstream
 background-image: url(Img/logotipo-de-gmail.png);
+=======
+background-image: url(Img/instagram.png);
+>>>>>>> Stashed changes
 }
 .facebook{
     background-image: url(Img/facebook.png); }
