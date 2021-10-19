@@ -120,6 +120,8 @@
 }
 /* PERFIL*/
 
+<<<<<<< HEAD
+=======
 *{
     background: rgb(3, 172, 158);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -187,3 +189,16 @@ background-image: url(iconos/logotipo-de-gmail.png);
     width: 300px;
 height: 300px;
 }
+<<<<<<< HEAD
+=======
+.logohomep{
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    position: absolute;
+    top: 1.2%;
+    left: 96%;
+    border-radius: 400px;
+}
+>>>>>>> 1a889becf89eb74ffbbc3e07b00d451c905f6bb4
+>>>>>>> e0c97dc9050a6aa02c4150cfad938d5ac93f9f46
