@@ -187,12 +187,3 @@ background-image: url(iconos/logotipo-de-gmail.png);
     width: 300px;
 height: 300px;
 }
-.logohomep{
-    width: 40px;
-    height: 40px;
-    z-index: 100;
-    position: absolute;
-    top: 1.2%;
-    left: 96%;
-    border-radius: 400px;
-}
