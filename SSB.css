@@ -285,8 +285,7 @@ form{
     top: 0.5%;
     left: 96%;
 }
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
 /*SUSCRIPCION PÁG*/
     *{
     margin: 0px;
@@ -303,7 +302,7 @@ background-color: transparent;
 background-size: 1090px;
 }
 .container{
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -493,15 +492,12 @@ background-size: 1090px;
     box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
 }
 
-
-
-
 .wrapper {
     display: flex;
     justify-content: center;
-    font-family: "Arimo";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgba(102, 192, 170, 0.986);
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -636,7 +632,7 @@ button:focus {
 @media (max-width: 736px) {
     .wrapper {
 
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -650,7 +646,7 @@ button:focus {
 }
 
     .container2 {
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -697,8 +693,6 @@ button:focus {
     box-shadow: 1px 1px 1px 1px rgba(110, 110, 110, 0.39);
 }
 
-=======
-
 .logohomep{
     width: 40px;
     height: 40px;
@@ -707,11 +701,4 @@ button:focus {
     top: 1.2%;
     left: 96%;
     border-radius: 400px;
-
-
-
-
->>>>>>> Stashed changes
-
-=======
->>>>>>> fed9e44b78daade5dae9520b696b6911afd1b0fe
+}
