@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menù Lateral con Css</title>
+	<link rel="stylesheet" href="estilos-vLib.css">
+</head>
+<body>
+		<header class="header">
+			
+			<div class="container">
+				<label for="btn-menu2"><img src="./filtro.png" class="filtro" ></label>
+				<div class="btn-menu">
+					<label for="btn-menu">☰</label>
+				</div>
+				<div class="logo">
+					
+				</div>
+				<a href="inicio.html" class="Logo1" ><img src="logo corto.png" class="Logo1"></a>
+
+			</div>
+		</header>
+
+		<div class="capa"></div>
+
+	<!--	--------------->
+	<input type="checkbox" id="btn-menu">
+	<div class="container-menu">
+		<div class="cont-menu">
+			<nav class="barra">
+				<a href="#">Categorías</a>
+				<a href="#">Libros</a>
+				<a href="#">Libros guardados</a>
+				<a href="#">Suscripciones</a>
+				<a href="#">Cerrar sesión</a>
+			</nav>
+			<label for="btn-menu">✖️</label>
+		</div>
+	</div>
+	<!--	--------------->
+	<input type="checkbox" id="btn-menu2">
+	<div class="container-menuiz">
+		<div class="cont-menuiz">
+			<nav class="barraiz">
+				<table>
+					<tr>
+						<td>
+							<label for="name_l">Nombre del libro</label>
+						</td>
+							
+						<td>
+							<input type="text" class="Boxescr"  id ="name_l" placeholder="libro">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="name_a">Autor</label>
+						</td>
+							
+						<td>
+							<input type="text" class="Boxescr" id ="name_a" placeholder="Autor">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="cod_l">Código del Libro</label>
+						</td>
+							
+						<td>
+							<input type="text" class="Boxescr" id ="cod_l" placeholder="Codigo del libro">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="FFPubli">Fecha de publicación</label>
+						</td>   
+						<td>
+							<input type="date" class="Boxescr" id ="FPubli" placeholder="fecha de publicación">
+						</td>
+					</tr>
+				</table>
+				<button value="4" class="Boxescr1"><a href="inicio.html" class="aplF">Aplicar filtro</a></button>
+			</nav>
+			<label for="btn-menu2" class="x2">✖️</label>
+		</div>
+
+
+		
+	</div>
+
+</body>
+</html>
