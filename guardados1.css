@@ -91,7 +91,7 @@
   
     .fr-view span.fr-emoticon {
       font-weight: normal;
-      font-family: "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       display: inline;
       line-height: 0; }
       .fr-view span.fr-emoticon.fr-emoticon-img {
@@ -127,7 +127,7 @@
       background-clip: padding-box;
       background: #f5f5f5;
       padding: 10px;
-      font-family: "Courier New", Courier, monospace; }
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
     .fr-view .fr-class-transparency {
       opacity: 0.5; }
     .fr-view img {
@@ -3954,7 +3954,7 @@
   }
   /*end-commonstyles library*//*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
   html {
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
@@ -4046,7 +4046,7 @@
   kbd,
   pre,
   samp {
-    font-family: monospace,monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1em;
   }
   hr {
@@ -4565,7 +4565,7 @@
     cursor: pointer;
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -4622,7 +4622,7 @@
   .u-tab-item a,
   .u-nav-item a {
     font-size: inherit;
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -4690,7 +4690,7 @@
     font-style: inherit !important;
     font-size: inherit !important;
     font-weight: inherit !important;
-    font-family: inherit !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit !important;
     letter-spacing: inherit !important;
     text-transform: inherit !important;
@@ -4698,7 +4698,7 @@
   .u-logo {
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -16767,7 +16767,7 @@
     display: block;
     white-space: nowrap;
     font-size: inherit;
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -17190,58 +17190,58 @@
     word-break: break-all;
   }
   .u-font-arial.u-custom-font {
-    font-family: Arial, sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
   }
   .u-font-courier-new.u-custom-font {
-    font-family: 'Courier New', monospace !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-georgia.u-custom-font {
-    font-family: Georgia, serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-roboto.u-custom-font {
-    font-family: Roboto, sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-open-sans.u-custom-font {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-lato.u-custom-font {
-    font-family: Lato, sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-montserrat.u-custom-font {
-    font-family: Montserrat, sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-roboto-condensed.u-custom-font {
-    font-family: 'Roboto Condensed', sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-source-sans-pro.u-custom-font {
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-oswald.u-custom-font {
-    font-family: Oswald, sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-raleway.u-custom-font {
-    font-family: Raleway, sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-pt-sans.u-custom-font {
-    font-family: 'PT Sans', sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-ubuntu.u-custom-font {
-    font-family: Ubuntu, sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-titillium-web.u-custom-font {
-    font-family: 'Titillium Web', sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-merriweather.u-custom-font {
-    font-family: Merriweather, serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-roboto-slab.u-custom-font {
-    font-family: 'Roboto Slab', serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-playfair-display.u-custom-font {
-    font-family: 'Playfair Display', serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-font-lobster.u-custom-font {
-    font-family: Lobster, display !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-rectangle {
     border-radius: 0;
@@ -17310,7 +17310,7 @@
   .u-social-url {
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -17414,7 +17414,7 @@
     padding-left: 0.8em;
   }
   .u-search input::placeholder {
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .u-search-icon {
     box-sizing: content-box;
@@ -18984,7 +18984,7 @@
   }
   .u-accordion-link {
     font-size: inherit;
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -19093,7 +19093,7 @@
   .u-carousel-control-next {
     color: inherit;
     font-size: inherit;
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: inherit;
     letter-spacing: inherit;
     text-transform: inherit;
@@ -19986,7 +19986,7 @@
   }
   /*begin-variables font-family*/
   .u-body {
-    font-family: 'Open Sans',sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   h1,
   h2,
@@ -19994,7 +19994,7 @@
   h4,
   h5,
   h6 {
-    font-family: Oswald,sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   /*end-variables font-family*/
   /*begin-variables color*/
@@ -20017,7 +20017,7 @@
     font-family: 'Open Sans',sans-serif !important;
   }
   .u-custom-font.u-heading-font {
-    font-family: Oswald,sans-serif !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   /*end-variables font*/
   /*begin-variables colors*/
@@ -22661,7 +22661,7 @@
   .u-container-layout.u-palette-2-dark-1:before,
   .u-table-alt-palette-2-dark-1 tr:nth-child(even) {
     color: #ffffff;
-    background-color: #38c4c1;
+    background: rgb(3, 172, 158);
   }
   .u-button-style.u-palette-2-dark-1,
   .u-button-style.u-palette-2-dark-1[class*="u-border-"] {
@@ -22765,7 +22765,7 @@
   .u-container-layout.u-palette-2-light-1:before,
   .u-table-alt-palette-2-light-1 tr:nth-child(even) {
     color: #42434b;
-    background-color: #7cebe8;
+    background: rgb(0, 104, 87);
   }
   .u-button-style.u-palette-2-light-1,
   .u-button-style.u-palette-2-light-1[class*="u-border-"] {
